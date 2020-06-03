@@ -18,7 +18,6 @@
             android:layout_height="70dp"
             android:background="@drawable/configuracion"
             android:layout_gravity="end"/>
-
         <ImageView
             android:layout_width="350dp"
             android:layout_height="300dp"

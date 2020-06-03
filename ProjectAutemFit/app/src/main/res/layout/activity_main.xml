@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/configuracion"
+            android:layout_gravity="end"/>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:src="@drawable/loguito"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:fontFamily="casual"
+            android:text="Iniciar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

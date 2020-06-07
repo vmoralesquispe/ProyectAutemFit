@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Funcional_Menu"></activity>
+        <activity android:name=".Calistenia_Intermedio"></activity>
+        <activity android:name=".Funcional_Intermedio" />
+        <activity android:name=".Calistenia_Basico" />
+        <activity android:name=".Funcional_Basico" />
+        <activity android:name=".Macro_Cereales" />
+        <activity android:name=".Alimentos_Macro_Nutrientes" />
+        <activity android:name=".Funcional_Menu" />
         <activity android:name=".Alimentos_Menu" />
         <activity android:name=".Menu_Calistenia" />
         <activity android:name=".Menu_Ejercicios" />
